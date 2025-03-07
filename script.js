@@ -9,7 +9,7 @@ function linkWatssapp(event) {
         return;
     }
 
-    const numero = '5561991261241';
+    const numero = '5561992938167';
     const texto = `Olá, meu nome é ${nome}, ${mensagem}`;
     const msgFormatada = encodeURIComponent(texto);
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
