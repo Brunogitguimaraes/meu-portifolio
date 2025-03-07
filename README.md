@@ -32,7 +32,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ## 📸 Demonstração
 
 Você pode acessar a versão online do portfólio aqui:  
-🔗 [Portfólio - Bruno da Silva Guimarães](https://seu-usuario-github.github.io/portfolio)
+🔗 [Portfólio - Bruno da Silva Guimarães](https://brunogitguimaraes.github.io/meu-portifolio/)
 
 ---
 
