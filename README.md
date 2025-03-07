@@ -42,7 +42,7 @@ Quer falar comigo? Me encontre em:
 
 - 📧 Email: brunodasilvaguimaraes@gmail.com
 - 📱 WhatsApp: [Link direto para WhatsApp](https://wa.me/5561992938167)
-- 💼 LinkedIn: [Bruno Guimarães](https://www.linkedin.com/in/seu-perfil/)
+- 💼 LinkedIn: [Bruno Guimarães](https://www.linkedin.com/in/bruno-da-silva-guimaraes/)
 
 ---
 
