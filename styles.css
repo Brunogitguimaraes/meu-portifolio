@@ -26,6 +26,7 @@ body{
     
     color: var(--claro);
     background: var(--maisEscuro);
+    padding-bottom: 20px;
 }
 
 
@@ -101,6 +102,53 @@ body{
 
 }
 
+.grade-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .img-projeto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .card-projeto {
+    border-radius: 10px;
+    background-color: #161616;
+    overflow: hidden;
+  }
+  
+  .info-projeto {
+    padding: 20px;
+  }
+  
+  .info-projeto h3 {
+    margin-bottom: 10px;
+  }
+  
+  .info-projeto p {
+    color: #bbb;
+    margin-bottom: 15px;
+  }
+  
+  .info-projeto a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--claro);
+    text-decoration: none;
+    background-color: #f64600;
+    border-radius: 4px;
+  }
+
+
 .cabeçalho{
     display: flex;
     flex-direction: column;
@@ -110,8 +158,11 @@ body{
     gap: 1px;
 
     h1{
-        font-size: 3.5rem;
+        display: flex;
+        text-align: center;
+        font-size: 3rem;
         font-weight: bold;
+        font-family:'Times New Roman', Times, serif
         
 
     }
@@ -151,6 +202,23 @@ body{
     }
 
 }
+
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .tag-habilidades {
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #f64600;
+    background-color: rgba(77, 124, 254, 0.2);
+  }
 
 h2{
     display: flex;
@@ -220,73 +288,58 @@ h2{
 .carousel-item:hover {
     transform: translateY(-8px);
 }
-.contatos-form {
-    background: var(--vidro);
-    padding: 2rem;
-    border-radius: 16px;
-    display: grid;
+
+.botoes-contatos {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--claro);
+    text-decoration: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+    a{
+        text-decoration: none;
+        color: var(--claro);
+    }
+  }
+  
+  .botao-contato {
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 600px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(12px);
-}
-
-
-
-.contatos-form input,
-.contatos-form button {
-    width: 500px;
-    padding: 0.75rem 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid var(--primaria);
-    border-radius: 8px;
-    background: rgba(27, 27, 27, 0.192);
-    color: var(--claro);
-    font-size: 1rem;
-    transition: 0.3s;
-}
-
-.contatos-form input:focus {
-    outline: none;
-    border-color: var(--secundaria);
-    box-shadow: 0 0 8px rgba(124, 58, 237, 0.5);
-}
-
-textarea{
-    width: 500px;
-    padding: 0.75rem 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid var(--primaria);
-    border-radius: 8px;
-    background: rgba(27, 27, 27, 0.192);
-    color: var(--claro);
-    font-size: 1rem;
-    transition: 0.3s;
-}
-
-.contatos-form a {
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    background: var(--primaria);
-    text-decoration: none;
-    padding: 0.75rem 1rem;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    color: var(--claro);
-    font-size: 1rem;
-    transition: 0.3s;
-
-
-}
-.contatos-form a:hover
-{
-    background: var(--secundaria);
-    color: var(--claro);
-}
+    gap: 10px;
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    min-width: 160px;
+  }
+  
+  .whatsapp {
+    background-color: #25d366;
+  }
+  
+  .email {
+    background-color: #ea4335;
+  }
+  
+  .linkedin {
+    background-color: #0077b5;
+  }
+  
+  .github {
+    background-color: #333;
+  }
+  
+  /* Styles footer */
+  footer {
+    text-align: center;
+    padding: 20px 5%;
+    border-top: solid 1px #222;
+  }
 
 
 @keyframes flutuar {
@@ -297,7 +350,6 @@ textarea{
         transform: translateY(-20px);
     }
 }
-
 
 
 /* Responsivo para tablets e telas menores que 768px */
