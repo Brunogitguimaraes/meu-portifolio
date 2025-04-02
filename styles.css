@@ -354,107 +354,18 @@ h2{
 
 /* Responsivo para tablets e telas menores que 768px */
 @media (max-width: 768px) {
-    .navegacao {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-        padding: 1rem;
+    .menu {
+      flex-direction: column;
+      text-align: center;
     }
-
-    .body{
-        width: 100%;
-        overflow-x: hidden;
-        height: 100%;
-    }
-
-    .navegacao li {
-        font-size: 1rem;
-    }
-
-    .cabeçalho h1 {
-        font-size: 2rem;
-    }
-
-    .cabeçalho-subtitulo {
-        font-size: 1rem;
-    }
-
-    .sobre-paragrafo {
-        font-size: 1rem;
-        padding: 1rem;
-    }
-
-    .contatos-form input,
-    .contatos-form textarea,
-    .contatos-form a {
-        width: 100%;
-    }
-
+  
     .foto-perfil {
-        max-width: 180px;
+      width: 120px;
+      height: 120px;
     }
-
-    h2 {
-        font-size: 1.5rem;
+  
+    .sobre-caixa {
+      padding: 10px;
     }
-
-    .carousel-item {
-        min-width: 240px;
-        max-width: 260px;
-    }
-}
-
-/* Responsivo para celulares menores que 480px */
-@media (max-width: 480px) {
-    .navegacao {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    .navegacao li {
-        font-size: 0.875rem;
-    }
-
-    .cabeçalho h1 {
-        font-size: 1.5rem;
-    }
-
-    .cabeçalho-subtitulo {
-        font-size: 0.875rem;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-    }
-
-    .sobre-paragrafo {
-        font-size: 0.875rem;
-    }
-
-    .foto-perfil {
-        max-width: 140px;
-        margin-top: 100px;
-    }
-
-    .contatos-form {
-        padding: 1rem;
-    }
-
-    .contatos-form input,
-    .contatos-form textarea,
-    .contatos-form a {
-        font-size: 0.875rem;
-        padding: 0.5rem;
-    }
-
-    .carousel-item {
-        min-width: 200px;
-    }
-}
-
-/* Evita overflow lateral em qualquer resolução */
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+  }
+  
