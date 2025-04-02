@@ -25,6 +25,7 @@ body{
     height: 100vh;
     
     color: var(--claro);
+    background: var(--maisEscuro);
 }
 
 
