@@ -353,19 +353,46 @@ h2{
 
 
 /* Responsivo para tablets e telas menores que 768px */
-@media (max-width: 768px) {
-    .menu {
-      flex-direction: column;
-      text-align: center;
-    }
-  
+    @media (max-width: 768px) {
+        .menu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding-right: 35px;
+        }
+    
+        .navegacao {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+            text-align: center; /* Garante que o texto dos links fique centralizado */
+        }
+    
+        .navegacao a {
+            font-size: 15px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
     .foto-perfil {
-      width: 120px;
-      height: 120px;
-    }
+        width: 120px;
+        height: 120px;
+      }
+    
+      .sobre-caixa {
+        padding: 10px;
+      }
   
-    .sobre-caixa {
-      padding: 10px;
     }
-  }
+    
+  
+  
   
