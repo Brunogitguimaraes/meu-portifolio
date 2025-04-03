@@ -15,12 +15,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap 5
 
 
 ## 📹 Funcionalidades
 
-- Vídeo de fundo para um visual moderno e dinâmico;
 - Navegação fluida com links para seções específicas da página;
 - Carrossel de projetos com links para repositórios e demonstrações;
 - Formulário integrado com link direto para WhatsApp;
