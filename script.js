@@ -1,6 +1,11 @@
 
 const sr = ScrollReveal({ reset: true });
 
+function newAba(){
+    window.open(URL, '_blank')
+}
+
+
 // Inicializando o ScrollReveal
 ScrollReveal().reveal('#home .sobre', {
     duration: 1000,
