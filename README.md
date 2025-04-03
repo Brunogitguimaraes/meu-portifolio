@@ -20,7 +20,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ## 📹 Funcionalidades
 
 - Navegação fluida com links para seções específicas da página;
-- Carrossel de projetos com links para repositórios e demonstrações;
 - Formulário integrado com link direto para WhatsApp;
 - Layout responsivo para diferentes tamanhos de tela.
 
